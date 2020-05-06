@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/estilos.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
+	<script src="javascript/notación.js"></script>
 	<title>Notación polaca</title>
 </head>
 <body>
@@ -41,13 +42,13 @@
 					earum eum voluptatibus! Quaerat, repellendus. Omnis, corporis explicabo?
 				</p>
 				<article class="form">
-					<form action="./php/notación.php" method="GET" enctype="text/plain">
+					<form action="" method="GET" enctype="text/plain">
 						<label>
-							<input type="text" nombre="input" placeholder="Entrada" required>
+							<input type="text" nombre="input" id="input" placeholder="Entrada" required>
 						</label>
 						<div class="botones">
-							<button name="prefija">Notación prefija</button>
-							<button name="sufija">Notación sufija</button>
+							<button name="prefija" id="btn-prefijo">Notación prefija</button>
+							<button name="sufija" id="btn-sufijo">Notación sufija</button>
 						</div>
 						<textarea name="resultado" id="resultado" readonly></textarea>
 					</form>
