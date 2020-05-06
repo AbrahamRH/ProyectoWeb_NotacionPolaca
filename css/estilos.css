@@ -127,6 +127,11 @@ input[type="text"]
 	padding: 2px;
 }
 
+textarea
+{
+	resize: none;
+}
+
 input[type="text"], textarea
 {
 	background-color: #FFF;
