@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * { box-sizing: border-box; }
 
 body
@@ -5,7 +7,8 @@ body
 	margin: 0;
 	color: #4D4D4D;
 	background: #E4E4E4;
-	max-height: 1000px;
+	max-height: auto;
+	font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 .contenedor 
@@ -47,9 +50,45 @@ header a:hover
 
 main
 {
-	padding: 5rem 0;
+	padding: 2rem 0 6rem;
 	min-height: calc(100vh);
 	margin-bottom: 3rem;
+	align-content: center;
+}
+
+.logos
+{
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+	height: fit-content;
+}
+
+.imagen
+{
+	display: block;
+	margin: 5px;
+	max-width: 200px;
+	height: auto;
+}
+
+.contenedor-principal .imagen img
+{
+	width: 100%;
+	height: auto;
+}
+
+.titulos
+{
+	text-align: center;
+	height: 100%;
+	width: auto;
+}
+
+h1 h2
+{
+	font-size: medium;
 }
 
 footer
