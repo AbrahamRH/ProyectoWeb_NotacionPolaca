@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/estilos.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
-	<script src="javascript/notación.js"></script>
 	<title>Notación polaca</title>
 </head>
 <body>
@@ -42,15 +41,15 @@
 					earum eum voluptatibus! Quaerat, repellendus. Omnis, corporis explicabo?
 				</p>
 				<article class="form">
-					<form action="" method="GET" enctype="text/plain">
+					<form method="POST" id="aplicacion">
 						<label>
-							<input type="text" nombre="input" id="input" placeholder="Entrada" required>
+							<input type="text" nombre="operacion" id="operacion" placeholder="Entrada" required>
 						</label>
 						<div class="botones">
-							<button name="prefija" id="btn-prefijo">Notación prefija</button>
-							<button name="sufija" id="btn-sufijo">Notación sufija</button>
+							<button name="btn-prefijo" onclick="notacionPrefija()">Notación prefija</button>
+							<button name="btn-postfija" onclick="notacionPostfija()">Notación postfija</button>
 						</div>
-						<textarea name="resultado" id="resultado" readonly></textarea>
+						<input type="text" name="resultado" id="resultado" readonly></input>
 					</form>
 				</article>
 			</section>
@@ -63,5 +62,6 @@
 			</p>
 		</div>
 	</footer>
+	<script src="javascript/notacion.js"></script>
 </body>
 </html>

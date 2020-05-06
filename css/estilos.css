@@ -115,7 +115,7 @@ form
 	margin: 3em 0;
 }
 
-textarea ,input[type="text"], .botones
+input[type="text"], .botones
 {
 	width: 18.75rem;
 	display: flex;
@@ -127,12 +127,7 @@ input[type="text"]
 	padding: 2px;
 }
 
-textarea
-{
-	resize: none;
-}
-
-input[type="text"], textarea
+input[type="text"]
 {
 	background-color: #FFF;
 	border: 1px solid #B1B1B1;
