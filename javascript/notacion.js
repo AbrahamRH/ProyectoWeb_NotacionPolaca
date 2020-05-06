@@ -1,5 +1,5 @@
 var formulario = document.getElementById('aplicacion');
-formulario.addEventListener('onclick', function(e){e.preventDefault()});
+formulario.addEventListener('submit', function(e){e.preventDefault()});
 
 function notacionPrefija()
 {
