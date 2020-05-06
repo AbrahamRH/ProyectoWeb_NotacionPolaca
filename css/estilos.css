@@ -9,7 +9,6 @@ body
 	margin: 0;
 	color: #4D4D4D;
 	background: #E4E4E4;
-	max-height: auto;
 	font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
@@ -92,9 +91,67 @@ main
 	width: auto;
 }
 
-h1 h2
+p
 {
-	font-size: medium;
+	text-align: justify;
+	letter-spacing: .05rem;
+	line-height: 1.5rem;
+}
+
+.form
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form
+{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	margin: 3em 0;
+}
+
+textarea ,input[type="text"], .botones
+{
+	width: 18.75rem;
+	display: flex;
+	justify-content: center;
+}
+
+input[type="text"]
+{
+	padding: 2px;
+}
+
+input[type="text"], textarea
+{
+	background-color: #FFF;
+	border: 1px solid #B1B1B1;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+button
+{
+	width: 9.375rem;
+	margin: 1rem .375rem;
+	color: #FFF;
+	font-size: 16px;
+	background-color: #323232;
+	padding: .8em .4em;
+	border: none;
+	text-transform: uppercase;
+	border-radius: .3125rem;
+}
+
+button:hover
+{
+    color: #000;
+    background-color: #73C728;
+    cursor: pointer;
 }
 
 /*Configuraciones del footer de la página*/
