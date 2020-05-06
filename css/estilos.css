@@ -161,6 +161,15 @@ footer
 	display: block;
 	background-color: #323232;
 	padding: 2rem 0;
+	color: #E4E4E4;
 	margin-top: -6rem;
 	clear: both;
+}
+
+.contenido-footer
+{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	height: fit-content;
 }
