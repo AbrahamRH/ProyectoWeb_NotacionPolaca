@@ -7,32 +7,42 @@
 	<title>Notación polaca</title>
 </head>
 <body>
-	<div class="contenedor">
-		<header>
+	<header>
+		<div class="contenedor">
 			<nav><a href="#">Manual de usuario</a></nav>
-		</header>
-		<section class="logos">
-			<div class="imagen">
-				<img src="#" alt="Logo UNAM">
-			</div>
-			<h1 class="titulo">Universidad Nacional Autónoma de México</h1>
-			<h2 class="titulo">Facultad de ingenieria</h2>
-			<h2 class="titulo">Estructuras Discretas 07</h2>
-			<div class="imagen">
-				<img src="#" alt="Logo FI">
-			</div>
-		</section>
-		<section class="widget">
-			<form action="notacion.php" method="GET" enctype="multipart/form-data">
-				<label>
-					<input type="text" nombre="input" placeholder="Entrada" required>
-				</label>
-				<button name="prefija">Notación prefija</button>
-				<button name="sufija">Notación sufija</button>
-			</form>
-		</section>
-		<footer>
-		</footer>
-	</div>
+		</div>
+	</header>
+	<main class="contenedor-principal">
+		<div class="contenedor">
+			<section class="logos">
+				<div class="imagen">
+					<img src="./imagenes/escudounam_color.jpg" alt="Logo UNAM">
+				</div>
+				<h1 class="titulo">Universidad Nacional Autónoma de México</h1>
+				<h2 class="titulo">Facultad de ingenieria</h2>
+				<h2 class="titulo">Estructuras Discretas 07</h2>
+				<div class="imagen">
+					<img src="./imagenes/escudo_fi_color.png" alt="Logo FI">
+				</div>
+			</section>
+			<section class="widget">
+				<form action="notacion.php" method="GET" enctype="multipart/form-data">
+					<label>
+						<input type="text" nombre="input" placeholder="Entrada" required>
+					</label>
+					<button name="prefija">Notación prefija</button>
+					<button name="sufija">Notación sufija</button>
+					<textarea name="resultado" id="resultado" cols="30" rows="1"></textarea>
+				</form>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<div class="contenedor">
+			<p>
+				Integrantes
+			</p>
+		</div>
+	</footer>
 </body>
 </html>
