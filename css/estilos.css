@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
+/*Configuraciones generales de la página*/
 * { box-sizing: border-box; }
 
 body
@@ -20,6 +22,8 @@ body
 	position: relative;
 }
 
+/*Configuraciones del Header de la página*/
+
 header
 {
 	position: relative;
@@ -34,11 +38,11 @@ header a
 {
 	color: whitesmoke;
 	float: right;
-	padding: 5px 15px;
+	padding: .3125rem 0.9375rem;
 	font-size: 1.3em;
 	background-color: #414141;
 	text-decoration: none;
-	border-radius: 5px;
+	border-radius: .3125rem;
 	cursor: pointer;
 }
 
@@ -48,6 +52,7 @@ header a:hover
 	color: #E4E4E4;
 }
 
+/*Configuraciones del cuerpo principal de la página*/
 main
 {
 	padding: 2rem 0 6rem;
@@ -56,6 +61,7 @@ main
 	align-content: center;
 }
 
+/*Banner con los escudos de las instituciones*/
 .logos
 {
 	display: flex;
@@ -68,7 +74,7 @@ main
 .imagen
 {
 	display: block;
-	margin: 5px;
+	margin: .3125rem;
 	max-width: 200px;
 	height: auto;
 }
@@ -91,6 +97,7 @@ h1 h2
 	font-size: medium;
 }
 
+/*Configuraciones del footer de la página*/
 footer
 {
 	position: relative;
