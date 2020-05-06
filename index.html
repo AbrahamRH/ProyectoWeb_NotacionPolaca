@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/estilos.css" rel="stylesheet" type="text/css">
 	<title>Notación polaca</title>
 </head>
 <body>
@@ -22,7 +23,13 @@
 			</div>
 		</section>
 		<section class="widget">
-
+			<form action="notacion.php" method="GET" enctype="multipart/form-data">
+				<label>
+					<input type="text" nombre="input" placeholder="Entrada" required>
+				</label>
+				<button name="prefija">Notación prefija</button>
+				<button name="sufija">Notación sufija</button>
+			</form>
 		</section>
 		<footer>
 		</footer>
