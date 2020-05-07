@@ -42,6 +42,8 @@ header a
 	background-color: #414141;
 	text-decoration: none;
 	border-radius: .3125rem;
+	-webkit-border-radius-: .3125rem;
+	-moz-border-radius-:  -3125rem;
 	cursor: pointer;
 }
 
@@ -91,6 +93,7 @@ main
 	width: auto;
 }
 
+/*Estilos para el contenido principal de la página*/
 p
 {
 	text-align: justify;
@@ -198,11 +201,18 @@ li
 	font-size: 1rem;
 }
 
-@media screen and (max-width: 1100px)
+
+/*Responsive design*/
+@media screen and (max-width: 700px)
 {
 	.contenido-footer
 	{
 		flex-wrap: wrap;	
 		flex-direction: row;
+	}
+
+	.logos .titulos h1,h2
+	{
+		font-size: 1em;
 	}
 }
