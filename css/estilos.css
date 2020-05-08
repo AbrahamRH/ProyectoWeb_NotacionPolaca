@@ -154,7 +154,8 @@ button:hover
 {
     color: #000;
     background-color: #73C728;
-    cursor: pointer;
+		cursor: pointer;
+		border: none;;
 }
 
 /*Configuraciones del footer de la página*/
