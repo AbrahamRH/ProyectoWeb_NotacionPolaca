@@ -206,6 +206,13 @@ li
 /*Responsive design*/
 @media screen and (max-width: 700px)
 {
+	
+	.logos .titulos h1,h2
+	{
+		font-size: 1em;
+	}
+
+	/* Footer */
 	.contenido-footer
 	{
 		flex-wrap: wrap;	
@@ -214,14 +221,19 @@ li
 	{
 		text-align: left;
 	}
-
-	.logos .titulos h1,h2
+	
+	.contenido-footer section
 	{
-		font-size: 1em;
+		width: 50%;
+	}
+	.nombres
+	{
+		order: 1;
+		justify-content: center;
 	}
 	
-	.logos .titulos
+	.proyecto, .materia
 	{
-		height: -50%;
+		order: -1;
 	}
 }
