@@ -4,6 +4,20 @@
 
 Esta es una aplicación web para la conversión de notación polaca, de notacion infija, a notación postfija y prefija.
 
+:page_facing_up: ara las instrucciones de uso, leer [Manual de usuario](.docs/test.pdf).
+
+### Requerimientos del sistema
+
+La aplicación trabaja desde en navegador mediante un script de JavaScript
+por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
+***JavaScript habilitado, Al menos 512 MB de RAM (al menos 2 GB de RAM para Vista)***
+
+* Internet Explorer 6/7/8
+  * Para Internet Explorer se recomienda tener ActiveX habilitado
+* Firefox 3.x, 4
+* Chrome 7/8
+* Safari 4/5
+
 ### Instrucciones para su instalación
 
 * #### Por el navegador
@@ -26,18 +40,6 @@ Esta es una aplicación web para la conversión de notación polaca, de notacion
 	 2. Descomprimirlo en su computadora
 	 3. Posteriormente ejecutar con el navegador el archivo index.html
 
-### Requerimientos del sistema
-
-La aplicación trabaja desde en navegador mediante un script de JavaScript
-por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
-***JavaScript habilitado, Al menos 512 MB de RAM (al menos 2 GB de RAM para Vista)***
-
-* Internet Explorer 6/7/8
-  * Para Internet Explorer se recomienda tener ActiveX habilitado
-* Firefox 3.x, 4
-* Chrome 7/8
-* Safari 4/5
-
 ### Tecnologias utilizadas en el proyecto
 
 * HTML: Para la estructura del contenido de la página.
@@ -52,17 +54,18 @@ Carrera de Ingernieria en computación , Facultad de Ingeniera, Universidad Naci
 
 Profesor: Ing. German Lugo Martinez
 
-#### Integrantes
 
-* Arenas Sánchez Ulises Isain ( @ShadowMaster10 )
+### Integrantes
 
-* Calderon Corona Ruben Alejandro
+* Arenas Sánchez Ulises Isain ( [@ShadowMaster10] ) : Documentacion del proyecto en el codigo.
 
-* Ramírez Hernández Abraham ( @AbrahamRH )
+* Calderon Corona Ruben Alejandro () : Implementación de los algoritmos.
 
-* Romo González Alejandro
+* Ramírez Hernández Abraham ( [@AbrahamRH] ) : Diseño y desarrollo Frontend, documentación en el Readme.
 
-* Valdovinos Antonio Fernando
+* Romo González Alejandro () : Desarrollo de los pseudocódigos y diagramas de flujo. 
+
+* Valdovinos Antonio Fernando () : Escritura del manual de usuario.
 
 ## LICENCIA
 
