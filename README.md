@@ -28,17 +28,17 @@ por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
 
   Para poder ejecutar la aplicación de forma local es necesario tener el código fuente del repositorio en su computadora, para esto clone el repositorio isando desde terminal con el siguiente comando.
 
-      	```Markdown
-      	git clone https://github.com/AbrahamRH/ProyectoWeb_NotacionPolaca.git
-      	```
+	```Markdown
+	git clone https://github.com/AbrahamRH/ProyectoWeb_NotacionPolaca.git
+	```
 
-      	despues de clonar el repositorio, ingrese a la carpeta creada y ejecite el archivo index.html con el navegador de su preferencia.
+	despues de clonar el repositorio, ingrese a la carpeta creada y ejecite el archivo index.html con el navegador de su preferencia.
 
-      	O bien descargando desde un archivo comprimido:
+	O bien descargando desde un archivo comprimido:
 
-      	 1. Decargar el archivo comprimido ZIP desde el repositorio,
-      	 2. Descomprimirlo en su computadora
-      	 3. Posteriormente ejecutar con el navegador el archivo index.html
+	1. Decargar el archivo comprimido ZIP desde el repositorio,
+	2. Descomprimirlo en su computadora
+	3. Posteriormente ejecutar con el navegador el archivo index.html
 
 ### Tecnologias utilizadas en el proyecto
 
