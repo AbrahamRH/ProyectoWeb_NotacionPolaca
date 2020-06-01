@@ -23,6 +23,7 @@ por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
 - #### Por el navegador
 
   Ingresar a el link [Proyecto Notación polaca](https://abrahamrh.github.io/ProyectoWeb_NotacionPolaca/), para el uso de la aplicación en el navegador.
+  Ingrese al documento ManualdeUsuario
 
 - #### De manera local
 
@@ -32,19 +33,24 @@ por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
 	git clone https://github.com/AbrahamRH/ProyectoWeb_NotacionPolaca.git
 	```
 
-	despues de clonar el repositorio, ingrese a la carpeta creada y ejecite el archivo index.html con el navegador de su preferencia.
+	despues de clonar el repositorio, si desea trabajar a nivel codigo.
 
 	O bien descargando desde un archivo comprimido:
 
 	1. Decargar el archivo comprimido ZIP desde el repositorio,
 	2. Descomprimirlo en su computadora
 	3. Posteriormente ejecutar con el navegador el archivo index.html
+	
+	Si se desea unicamente utilizar el ejecutable acudir al link, leer el manual de usuario para mas información:
+	https://drive.google.com/drive/folders/1qLJMYGf2yf4d8vKUVP_WYjBneIYabMsb?usp=sharing
 
 ### Tecnologias utilizadas en el proyecto
 
 - HTML: Para la estructura del contenido de la página.
 - CSS3: Para el diseño de la pagina, elementos vidules y diseño responsivo.
-- Javascript: En el desarrollo del funcionammiento de la aplicación para la coversión de anotaciones.
+- Javascript: En el desarrollo del funcionammiento de la aplicación para realizar acciones de obtención de datos.
+- Python: En el desarrollo del algoritmo para obtener las expresiones.
+- Eel: Libreria que permitio conjuntar todo los archivos anteriores en un ejecutable.
 
 ### Información general de desarrollo del proyecto
 
@@ -58,7 +64,7 @@ Profesor: Ing. German Lugo Martinez
 
 - Arenas Sánchez Ulises Isain ( [@ShadowMaster10](https://github.com/ShadowMaster10) ) : Documentacion del proyecto en el codigo.
 
-- Calderon Corona Ruben Alejandro () : Implementación de los algoritmos.
+- Calderon Corona Ruben Alejandro ([@urbenoroac]) : Implementación de los algoritmos.
 
 - Ramírez Hernández Abraham ( [@AbrahamRH](https://github.com/AbrahamRH) ) : Diseño y desarrollo Frontend, documentación en el Readme.
 
