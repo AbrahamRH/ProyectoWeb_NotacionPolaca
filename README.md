@@ -4,7 +4,7 @@
 
 Esta es una aplicación web para la conversión de notación polaca, de notacion infija, a notación postfija y prefija.
 
-:page_facing_up: Para las instrucciones de uso, leer [Manual de usuario](./docs/test.pdf).
+:page_facing_up: Para las instrucciones de uso, leer [Manual de usuario](./docs/ManualdeUsuario.pdf).
 
 ### Requerimientos del sistema
 
@@ -23,7 +23,6 @@ por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
 - #### Por el navegador
 
   Ingresar a el link [Proyecto Notación polaca](https://abrahamrh.github.io/ProyectoWeb_NotacionPolaca/), para el uso de la aplicación en el navegador.
-  Ingrese al documento ManualdeUsuario
 
 - #### De manera local
 
@@ -33,7 +32,7 @@ por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
 	git clone https://github.com/AbrahamRH/ProyectoWeb_NotacionPolaca.git
 	```
 
-	despues de clonar el repositorio, si desea trabajar a nivel codigo.
+	despues de clonar el repositorio, seleccione el archivo index.html y ábralo con el navegador de su preferencia
 
 	O bien descargando desde un archivo comprimido:
 
@@ -41,8 +40,7 @@ por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
 	2. Descomprimirlo en su computadora
 	3. Posteriormente ejecutar con el navegador el archivo index.html
 	
-	Si se desea unicamente utilizar el ejecutable acudir al link, leer el manual de usuario para mas información:
-	https://drive.google.com/drive/folders/1qLJMYGf2yf4d8vKUVP_WYjBneIYabMsb?usp=sharing
+	Si se desea unicamente utilizar el ejecutable acudir al link: [ejecutable](https://drive.google.com/drive/folders/1qLJMYGf2yf4d8vKUVP_WYjBneIYabMsb?usp=sharing), leer el manual de usuario para mas información:
 
 ### Tecnologias utilizadas en el proyecto
 
@@ -64,7 +62,7 @@ Profesor: Ing. German Lugo Martinez
 
 - Arenas Sánchez Ulises Isain ( [@ShadowMaster10](https://github.com/ShadowMaster10) ) : Documentacion del proyecto en el codigo.
 
-- Calderon Corona Ruben Alejandro ([@urbenoroac]) : Implementación de los algoritmos.
+- Calderon Corona Ruben Alejandro ([@urbenoroac](https://github.com/urbenoroac)) : Implementación de los algoritmos.
 
 - Ramírez Hernández Abraham ( [@AbrahamRH](https://github.com/AbrahamRH) ) : Diseño y desarrollo Frontend, documentación en el Readme.
 
