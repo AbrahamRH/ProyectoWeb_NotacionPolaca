@@ -3,16 +3,27 @@ formulario.addEventListener('submit', function(e){e.preventDefault()});
 
 function notacionPrefija()
 {
-	var string = document.getElementById('operacion').value;
-	if (string == '');
+	var data = document.getElementById('operacion').value;
+	if (data == '');
 	else
-		document.getElementById('resultado').value = "Nada por el momento";
+		eel.Prefija(data)(setResult)(function (ret) {console.log(ret)})
+
+}
+
+eel.expose(callbackPosfija)
+function callbackPosfija(X) {
+document.getElementById('resultado').value = X
 }
 
 function notacionPostfija()
 {
-	var string = document.getElementById('operacion').value;
-	if (string == '');
+	var data = document.getElementById('operacion').value;
+	if (data == '');
 	else
-		document.getElementById('resultado').value = "Nada por el momento";
+		eel.Postfija(data)(setResult)(function (ret) {console.log(ret)})
+}
+
+eel.expose(callbackPrefija)
+function callbackPrefija(X) {
+document.getElementById('resultado').value = X
 }
