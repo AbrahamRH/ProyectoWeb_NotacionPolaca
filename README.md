@@ -40,12 +40,12 @@ por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
 	2. Descomprimirlo en su computadora
 	3. Posteriormente ejecutar con el navegador el archivo index.html
 	
-	Si se desea unicamente utilizar el ejecutable acudir al link: [ejecutable](https://drive.google.com/drive/folders/1qLJMYGf2yf4d8vKUVP_WYjBneIYabMsb?usp=sharing), leer el manual de usuario para mas información:
+	Si se desea unicamente utilizar el ejecutable acudir al link: [ejecutable](https://drive.google.com/drive/folders/1qLJMYGf2yf4d8vKUVP_WYjBneIYabMsb?usp=sharing), leer el manual de usuario para más información:
 
 ### Tecnologias utilizadas en el proyecto
 
 - HTML: Para la estructura del contenido de la página.
-- CSS3: Para el diseño de la pagina, elementos vidules y diseño responsivo.
+- CSS3: Para el diseño de la página, elementos vidules y diseño responsivo.
 - Javascript: En el desarrollo del funcionammiento de la aplicación para realizar acciones de obtención de datos.
 - Python: En el desarrollo del algoritmo para obtener las expresiones.
 - Eel: Libreria que permitio conjuntar todo los archivos anteriores en un ejecutable.
@@ -54,13 +54,13 @@ por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
 
 Proyecto 3 de la materia: Estructuras discretas, Grupo: 07, Semestre 2020-2
 
-Carrera de Ingernieria en computación , Facultad de Ingeniera, Universidad Nacional Autónoma de México
+Carrera de Ingeniería en computación , Facultad de Ingeniería, Universidad Nacional Autónoma de México
 
 Profesor: Ing. German Lugo Martinez
 
 #### Integrantes
 
-- Arenas Sánchez Ulises Isain ( [@ShadowMaster10](https://github.com/ShadowMaster10) ) : Documentacion del proyecto en el codigo.
+- Arenas Sánchez Ulises Isain ( [@ShadowMaster10](https://github.com/ShadowMaster10) ) : Documentación del proyecto en el codigo.
 
 - Calderon Corona Ruben Alejandro ([@urbenoroac](https://github.com/urbenoroac)) : Implementación de los algoritmos.
 
