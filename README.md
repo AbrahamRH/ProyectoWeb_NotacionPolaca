@@ -60,7 +60,7 @@ Profesor: Ing. German Lugo Martinez
 
 #### Integrantes
 
-- Arenas Sánchez Ulises Isain ( [@ShadowMaster10](https://github.com/ShadowMaster10) ) : Documentación del proyecto en el codigo.
+- Arenas Sánchez Ulises Isain ( [@ShadowMaster10](https://github.com/ShadowMaster10) ) : Documentación del proyecto en el código.
 
 - Calderon Corona Ruben Alejandro ([@urbenoroac](https://github.com/urbenoroac)) : Implementación de los algoritmos.
 
