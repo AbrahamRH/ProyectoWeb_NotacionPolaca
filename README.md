@@ -66,10 +66,10 @@ Profesor: Ing. German Lugo Martinez
 
 - Ramírez Hernández Abraham ( [@AbrahamRH](https://github.com/AbrahamRH) ) : Diseño y desarrollo Frontend, documentación en el Readme.
 
-- Romo González Alejandro () : Desarrollo de los pseudocódigos y diagramas de flujo.
+- Romo González Alejandro  () : Desarrollo de los pseudocódigos y diagramas de flujo.
 
 - Valdovinos Antonio Fernando () : Escritura del manual de usuario.
 
-## LICENCIA
+## LICENCIA.
 
 Todos los contenidos están disponibles bajo la [Licencia MIT](./LICENSE).
