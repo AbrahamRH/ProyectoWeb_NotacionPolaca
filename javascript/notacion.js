@@ -11,8 +11,9 @@ function notacionPrefija()
 }
 
 eel.expose(callbackPosfija)
+
 function callbackPosfija(X) {
-document.getElementById('resultado').value = X
+	document.getElementById('resultado').value = X
 }
 
 function notacionPostfija()

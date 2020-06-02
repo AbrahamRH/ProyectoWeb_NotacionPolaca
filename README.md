@@ -32,7 +32,13 @@ por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
 	git clone https://github.com/AbrahamRH/ProyectoWeb_NotacionPolaca.git
 	```
 
-	despues de clonar el repositorio, seleccione el archivo index.html y ábralo con el navegador de su preferencia
+	Es necesario tener python 2.7.x e instalar su libreria eel.
+
+	```
+	pip install eel
+	```
+
+	despues de clonar el repositorio, seleccione el archivo main.py y ábralo preferentemente con el IDE pyCharm
 
 	O bien descargando desde un archivo comprimido:
 
@@ -40,7 +46,7 @@ por lo tanto, los requisitos esenciales para cualquier sistema operativo son:
 	2. Descomprimirlo en su computadora
 	3. Posteriormente ejecutar con el navegador el archivo index.html
 	
-	Si se desea unicamente utilizar el ejecutable acudir al link: [ejecutable](https://drive.google.com/drive/folders/1qLJMYGf2yf4d8vKUVP_WYjBneIYabMsb?usp=sharing), leer el manual de usuario para más información:
+	Si se desea unicamente utilizar el ejecutable acudir al link: [ejecutable](https://drive.google.com/drive/folders/1qLJMYGf2yf4d8vKUVP_WYjBneIYabMsb?usp=sharing), leer el [manual](./docs/ManualdeUsuario.pdf) de usuario para más información:
 
 ### Tecnologias utilizadas en el proyecto
 
